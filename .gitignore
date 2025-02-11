@@ -1,0 +1,27 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python files (if your script is in Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# other files
+token.pickle
+*.zip
+client_secret*
